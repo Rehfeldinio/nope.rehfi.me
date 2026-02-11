@@ -851,7 +851,7 @@ export default function DrawingCanvas({ starsEnabled, onToggleStars, starIntensi
           <button
             onClick={undo}
             disabled={!canUndo}
-            title="Rueckgaengig (Ctrl+Z)"
+            title="Rückgängig (Ctrl+Z)"
             className={`w-7 h-7 flex items-center justify-center rounded-md transition-all duration-200 ${canUndo ? "text-neutral-300 hover:text-white hover:bg-white/10" : "text-neutral-700 cursor-not-allowed"}`}
           >
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -875,9 +875,9 @@ export default function DrawingCanvas({ starsEnabled, onToggleStars, starIntensi
           <button
             onClick={clearCanvas}
             className="text-neutral-400 hover:text-white transition-colors duration-200 text-xs font-medium"
-            title="Alles loeschen"
+            title="Alles löschen"
           >
-            Loeschen
+            Löschen
           </button>
         </div>
 
